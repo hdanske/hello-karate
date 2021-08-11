@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.daasworld.hellokarate.prototest";
+option java_outer_classname = "PersonProtobuf";
+
+message Person{
+    string firstname = 1;
+    string lastname = 2;
+    int32 age = 3;
+}
